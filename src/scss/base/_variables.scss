@@ -1,0 +1,60 @@
+// Cores
+$color-primary: #610972;
+$color-primary-light: #c09dc7;
+$color-primary-dark: #440650;
+
+$color-secondary: #ecb009;
+$color-secondary-light: #ffb900;
+$color-secondary-dark: #ff7730;
+
+$color-tertiary: #4182be;
+$color-tertiary-light: #2998ff;
+$color-tertiary-dark: #5643fa;
+
+$color-grey-light-1: #eee;
+$color-grey-light-2: #eceeec;
+$color-grey-light-3: #dbd6d6;
+$color-grey-light-4: #cbcfcb;
+
+$color-grey-dark-1: #777;
+$color-grey-dark-2: #999;
+$color-grey-dark-3: #333;
+$color-grey-dark-4: #302f2f;
+
+$color-white: #fff;
+$color-black: #000;
+
+// Tipografia
+$font-family-body: 'Roboto', sans-serif;
+$font-family-heading: 'Playfair Display', serif;
+$font-size-base: 62.5%;
+$font-size-body: 1.6rem;
+$font-weight-normal: 400;
+$line-height-base: 1.5;
+$line-height-sm: 1;
+$line-height-lg: 1.8;
+$letter-spacing-base: 1.2px;
+$letter-spacing-sm: -0.7px;
+
+// heading
+$font-size-h1: 3.2rem;
+$font-size-h2: 2.4rem;
+$font-size-h3: 1.8rem;
+
+// Bordas
+$border-radius-50: 50%;
+$border-radius: 1rem;
+
+// Media queries
+$devices: (
+  'sm': 576px,
+  'md': 768px,
+  'lg': 992px,
+  'xl': 1200px,
+  'xxl': 1400px,
+);
+
+// Grid
+$cols: 12;
+$max-width-container: 120rem;
+$grid-gutter: 2rem;
