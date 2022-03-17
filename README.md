@@ -115,7 +115,7 @@ Primeiramente, agradeço a sua visita, qualquer contribuição que você fizer �
 
 ## :pencil: Licença <a name = "licenca"></a>  
  
-O projeto está sob a licença MIT. Para saber mais, acesse o arquivo [LICENÇA]().
+O projeto está sob a licença MIT. Para saber mais, acesse o arquivo [LICENÇA](https://github.com/carla-santos/gulp-boilerplate-sass/blob/main/LICENSE).
 
 ---
 
