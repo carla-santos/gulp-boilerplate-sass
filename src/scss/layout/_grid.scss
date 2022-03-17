@@ -1,0 +1,14 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.container {
+  @include m.container;
+}
+
+.grid-responsive {
+  @include m.grid(auto-fit, minmax(24rem, 1fr), v.$grid-gutter);
+}
+
+.flex-column {
+  @include m.flex(column, 1.6rem);
+}

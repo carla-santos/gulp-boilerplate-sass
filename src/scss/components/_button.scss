@@ -1,0 +1,30 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+%btn {
+  border: none;
+  border-radius: v.$border-radius;
+  cursor: pointer;
+  font-family: inherit;
+  text-align: center;
+  display: inline-block;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn {
+  &,
+  &:link,
+  &:visited {
+    @extend %btn;
+  }
+
+  &--primary {
+    font-size: 1.8rem;
+    @include m.display-button(v.$color-primary, v.$color-grey-dark-2);
+  }
+
+  &--secondary {
+    font-size: 1.4rem;
+    @include m.display-button(v.$color-secondary, v.$color-grey-dark-3);
+  }
+}

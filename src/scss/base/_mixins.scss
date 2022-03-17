@@ -7,6 +7,15 @@
   transform: translate(-50%, -50%);
 }
 
+@mixin display-button($bg-color, $color) {
+  background-color: $bg-color;
+  color: $color;
+
+  &:hover {
+    background-color: darken($bg-color, 10%);
+  }
+}
+
 @mixin d($size) {
   @media only screen and (max-width: map-get(v.$devices, $size)) {
     @content;

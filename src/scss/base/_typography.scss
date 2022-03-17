@@ -1,0 +1,24 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+%heading {
+  font-family: v.$font-family-heading;
+  line-height: v.$line-height-sm;
+  letter-spacing: v.$letter-spacing-sm;
+  margin-bottom: 1rem;
+}
+
+.heading-primary {
+  font-size: v.$font-size-h1;
+  @extend %heading;
+}
+
+.heading-secondary {
+  font-size: v.$font-size-h2;
+  @extend %heading;
+}
+
+.heading-tertiary {
+  font-size: v.$font-size-h3;
+  @extend %heading;
+}
