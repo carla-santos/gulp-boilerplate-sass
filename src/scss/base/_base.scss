@@ -1,19 +1,20 @@
 @use 'base/variables' as v;
 @use 'base/mixins' as m;
 
+html {
+  font-size: v.$font-size-base;
+  box-sizing: border-box;
+
+  @include m.d(xl) {
+    font-size: 56.25%;
+  }
+}
+
 *,
 *::before,
 *::after {
   box-sizing: inherit;
-}
-
-* {
   margin: 0;
-}
-
-html {
-  font-size: v.$font-size-base;
-  box-sizing: border-box;
 }
 
 // Aplica rolagem suave aos elementos que receberem o foco
@@ -60,4 +61,24 @@ button {
 
 [role='button'] {
   cursor: pointer;
+}
+
+table {
+  caption-side: bottom;
+  border-collapse: collapse;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(4, 24, 41, 0.506);
+}
+
+// Estilos para a barra de rolagem
+::-webkit-scrollbar {
+  width: 1.4rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: v.$color-grey-dark-1;
+  border-radius: v.$border-radius;
 }
