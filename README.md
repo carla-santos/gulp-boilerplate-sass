@@ -35,7 +35,10 @@ front-end a iniciarem seus projetos.
 - Adicionar mais mémoria ao processo de compilação no Gulp com [gulp-cache](https://www.npmjs.com/package/gulp-cache)
 - Previnir o encerramento da execução por causa de erros das dependências com [gulp-plumber](https://www.npmjs.com/package/gulp-plumber) 
 - Adicionar Sourcemaps aos arquivos SASS e Javascript com [gulp-sourcemaps](https://www.npmjs.com/package/gulp-sourcemaps)
-- Minificar arquivos Javascript com [gulp-terser-js](https://www.npmjs.com/package/gulp-terser-js)
+- Minificar arquivos Javascript com [gulp-terser](https://www.npmjs.com/package/gulp-terser)
+- Transpila arquivos Javascript para maior compatibilidade com navegadores antigos com [gulp-babel](https://www.npmjs.com/package/gulp-babel)
+- Sincroniza o navegador com as mudanças que ocorrem no projeto com [browser-sync](https://www.npmjs.com/package/browser-sync)
+- Junta arquivos Javascript em um só com [gulp-concat](https://www.npmjs.com/package/gulp-concat)
 
 ---
 
@@ -79,8 +82,6 @@ $ npm install
 $ gulp dev
 
 ```
-Utilize uma ferramenta como o [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) para criar um servidor local e 
-executar o projeto.
 
 ### Estruturas dos arquivos <a name = "estruturas-dos-arquivos"></a>
 
@@ -91,8 +92,9 @@ otimizados e prontos para produção.
 
 Você pode executar as tarefas abaixo:
 
-- `gulp dev` (tarefa padrão): Cria no diretório **build** todos os arquivos optimizados.
-- `gulp js`: Adiciona sourcemaps e minifica arquivos Javascript.
+- `gulp dev` (tarefa padrão): Cria no diretório **build** todos os arquivos otimizados e é iniciado um servidor local para execução do projeto.
+- `gulp img`: Otimiza de forma paralela todos os formatos de imagens.
+- `gulp js`: Adiciona sourcemaps, concatena, transpila e minifica arquivos Javascript.
 - `gulp css`: Compila SASS, adiciona sourcemaps, autoprefixer e minifica arquivos CSS.
 - `gulp images`: Otimiza imagens .jpg e .png.
 - `gulp versionWebp`: Converte imagens para o formato .webp.
@@ -121,6 +123,6 @@ O projeto está sob a licença MIT. Para saber mais, acesse o arquivo [LICENÇA]
 
 ## :dizzy: Changelog <a name = "changelog"></a>  
 
-### 1.0.0
+### 1.1.0
 - Lançamento inicial<br>
-17.03.2022
+15.09.2022
