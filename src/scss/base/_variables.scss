@@ -37,9 +37,9 @@ $letter-spacing-base: 1.2px;
 $letter-spacing-sm: -0.7px;
 
 // heading
-$font-size-h1: 3.2rem;
-$font-size-h2: 2.4rem;
-$font-size-h3: 1.8rem;
+$font-size-h1: clamp(4.4rem, 5vw + 1rem, 6.4rem);
+$font-size-h2: clamp(2.4rem, 3vw + 1rem, 3.2rem);
+$font-size-h3: clamp(1.8rem, 2vw + 1rem, 2.4rem);
 
 // Bordas
 $border-radius-50: 50%;
