@@ -15,6 +15,7 @@
 - [Contribuição](#contribuicao)
   - [Como contribuir para o projeto](#como-contribuir-para-o-projeto) 
 - [Licença](#licenca)
+- [Agradecimento](#agradecimento)
 - [Changelog](#changelog) 
 
 ## :green_book: Sobre o projeto <a name = "sobre-o-projeto"></a>
@@ -118,6 +119,19 @@ Primeiramente, agradeço a sua visita, qualquer contribuição que você fizer �
 ## :pencil: Licença <a name = "licenca"></a>  
  
 O projeto está sob a licença MIT. Para saber mais, acesse o arquivo [LICENÇA](https://github.com/carla-santos/gulp-boilerplate-sass/blob/main/LICENSE).
+
+---
+
+## 🚀 Agradecimento <a name = "agradecimento"></a>  
+
+- [Img Shields](https://shields.io)
+- [NPM](https://www.npmjs.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [SASS guidelin](https://sass-guidelin.es/#architecture)
+- [CSS-Tricks](https://css-tricks.com/introducing-sass-modules/)
+- [Font Awesome](https://fontawesome.com)
+- [Juan Pablo De la torre Valdez](https://www.udemy.com/user/juanpablodelatorrevaldez/)
+- [André Rafael](https://www.origamid.com/)
 
 ---
 
