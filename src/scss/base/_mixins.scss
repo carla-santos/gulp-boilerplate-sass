@@ -7,6 +7,12 @@
   transform: translate(-50%, -50%);
 }
 
+%bg-img {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 @mixin display-button($bg-color, $color) {
   background-color: $bg-color;
   color: $color;
